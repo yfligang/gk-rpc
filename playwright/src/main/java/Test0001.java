@@ -33,6 +33,29 @@ public class Test0001 {
         while (it.hasNext()){
             System.out.print(it.next() + " ,");
         }
+        System.out.println("");
 
+        /*
+        使用remove()方法移除集合中的元素  移除最后访问的元素
+        如上面将集合打印出来，最后打印出来的就是TaiWan
+        那么移除的就是TaiWan
+         */
+
+        //先调用next()方法
+        Iterator it2 = listStr.iterator();
+        while (it2.hasNext()){
+            Object obj = it2.next();
+            if ("TaiWan".equals(obj)){
+                it2.remove();
+            }else {
+                System.out.print(obj + " ,");
+            }
+
+        }
+//        System.out.println("");
+//        //
+//        while (it.hasNext()){
+//            System.out.print(it.next() + " ,");
+//        }
     }
 }
