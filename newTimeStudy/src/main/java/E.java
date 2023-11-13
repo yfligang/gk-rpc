@@ -65,6 +65,24 @@ public class E {
         return id;
     }
 
+    public void setNum(int age,String name,int score,double height,long id){
+        E e = new E();
+        if (age < 16){
+            System.out.println("用户年龄不能小于16");
+        }else if (age > 60){
+            System.out.println("用户年龄不能大于60");
+        }else {
+            setAge(age);
+            age = e.getAge();
+            System.out.println(age);
+        }
+        setName(name);
+        name = e.getName();
+        System.out.println(name);
+    }
+
+    //应该是在单个的方法中添加逻辑
+
     public void method(int age,String name,int score,double height,long id){
         E e = new E();
 //        age = e.getAge();
@@ -78,14 +96,20 @@ public class E {
         this.height = height;
         this.id = id;
 
-        System.out.println("年龄为: " + age + "\n" + "姓名为: " + name + "\n" +"分数为: " + score
-        + "\n" + "身高为: " + height + "\n" + "id值为: " + id);
+//        System.out.println("年龄为: " + age + "\n" + "姓名为: " + name + "\n" +"分数为: " + score
+//        + "\n" + "身高为: " + height + "\n" + "id值为: " + id);
+
+        System.out.println("=======================");
+
+//        System.out.println(e.getAge() + "\n" + e.getScore() + "\n" + e.getHeight()
+//        + "\n" + e.getId() + "\n" + e.getName());
 
     }
 
 
 
     public static void main(String[] args){
-
+        E e = new E();
+        e.setNum(30,"王子",88,172.5,100109);
     }
 }
