@@ -23,3 +23,7 @@ public class J extends H {
     }
 
 }
+
+class K extends H{
+
+}
