@@ -6,12 +6,20 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.testng.annotations.Test;
 
 import javax.swing.text.html.parser.Entity;
 import java.io.IOException;
 import java.util.logging.Logger;
 
 public class HttpClientDemo {
+
+    //调用post接口
+    public void postMethod() throws IOException {
+        //创建HttpClient对象
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        //创建HttpPost对象，设置urkl
+    }
 
     public void getMethod() throws IOException {
         //创建HttpClient对象
@@ -38,6 +46,7 @@ public class HttpClientDemo {
 
     }
 
+    @Test
     public static void main(String[] args) throws IOException {
         HttpClientDemo httpClientDemo = new HttpClientDemo();
         httpClientDemo.getMethod();
