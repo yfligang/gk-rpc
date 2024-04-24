@@ -1,0 +1,15 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 12 16:20:14 CST 2023
+http\://nexus.tongdao.cn/nexus/content/repositories/central/.error=Could not transfer artifact org.testng\:testng\:jar\:7.7.0 from/to Maven Central (http\://nexus.tongdao.cn/nexus/content/repositories/central/)\: Transfer failed for http\://nexus.tongdao.cn/nexus/content/repositories/central/org/testng/testng/7.7.0/testng-7.7.0.jar
+http\://nexus.tongdao.cn/nexus/content/repositories/releases/.error=Could not transfer artifact org.testng\:testng\:jar\:7.7.0 from/to releases (http\://nexus.tongdao.cn/nexus/content/repositories/releases/)\: Transfer failed for http\://nexus.tongdao.cn/nexus/content/repositories/releases/org/testng/testng/7.7.0/testng-7.7.0.jar
+http\://nexus.tongdao.cn/nexus/content/repositories/neo4j/.error=Could not transfer artifact org.testng\:testng\:jar\:7.7.0 from/to neo4j (http\://nexus.tongdao.cn/nexus/content/repositories/neo4j/)\: Transfer failed for http\://nexus.tongdao.cn/nexus/content/repositories/neo4j/org/testng/testng/7.7.0/testng-7.7.0.jar
+http\://nexus.tongdao.cn/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.testng\:testng\:jar\:7.7.0 from/to thirdparty (http\://nexus.tongdao.cn/nexus/content/repositories/thirdparty/)\: Transfer failed for http\://nexus.tongdao.cn/nexus/content/repositories/thirdparty/org/testng/testng/7.7.0/testng-7.7.0.jar
+@default-thirdparty-http\://nexus.tongdao.cn/nexus/content/repositories/thirdparty/.lastUpdated=1702369212119
+https\://g-dtes3169-maven.pkg.coding.net/repository/jkzd_wanda/immediately_access/.lastUpdated=1702369214948
+0e55a597b2f77a10ea8024b2146d31c803a1893a@default-releases-snapshots-http\://nexus.tongdao.cn/nexus/content/repositories/releases-snapshots/.lastUpdated=1702369212080
+http\://nexus.tongdao.cn/nexus/content/repositories/releases-snapshots/.error=Could not transfer artifact org.testng\:testng\:jar\:7.7.0 from/to releases-snapshots (http\://nexus.tongdao.cn/nexus/content/repositories/releases-snapshots/)\: Transfer failed for http\://nexus.tongdao.cn/nexus/content/repositories/releases-snapshots/org/testng/testng/7.7.0/testng-7.7.0.jar
+http\://nexus.tongdao.cn/nexus/content/repositories/spy/.error=Could not transfer artifact org.testng\:testng\:jar\:7.7.0 from/to spy (http\://nexus.tongdao.cn/nexus/content/repositories/spy/)\: Transfer failed for http\://nexus.tongdao.cn/nexus/content/repositories/spy/org/testng/testng/7.7.0/testng-7.7.0.jar
+@default-neo4j-http\://nexus.tongdao.cn/nexus/content/repositories/neo4j/.lastUpdated=1702369212135
+@default-Maven\ Central-http\://nexus.tongdao.cn/nexus/content/repositories/central/.lastUpdated=1702369212100
+0e55a597b2f77a10ea8024b2146d31c803a1893a@default-releases-http\://nexus.tongdao.cn/nexus/content/repositories/releases/.lastUpdated=1702369212113
+@default-spy-http\://nexus.tongdao.cn/nexus/content/repositories/spy/.lastUpdated=1702369212128
